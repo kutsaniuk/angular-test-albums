@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "title": "Trailers",
+  "description": "Description",
+  "items": [
+    {
+      "id": "hEJnMQG9ev8",
+      "title": "Mad Max",
+      "description": "From director George Miller, originator of the post-apocalyptic genre and mastermind behind the legendary “Mad Max” franchise, comes “Mad Max: Fury Road,” a return to the world of the Road Warrior, Max Rockatansky."
+    },
+    {
+      "id": "5PSNL1qE6VY",
+      "title": "Avatar",
+      "description": "AVATAR takes us to a spectacular world beyond imagination, where a reluctant hero embarks on an epic adventure, ultimately fighting to save the alien world he has learned to call home."
+    },
+    {
+      "id": "gnRbXn4-Yis",
+      "title": "THE HATEFUL EIGHT",
+      "description": "In THE HATEFUL EIGHT, set six or eight or twelve years after the Civil War, a stagecoach hurtles through the wintry Wyoming landscape."
+    }
+  ]
+}

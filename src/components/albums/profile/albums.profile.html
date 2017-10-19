@@ -1,0 +1,20 @@
+<header>
+    <h1>{{vm.album.title}}</h1>
+</header>
+<section class="tiles">
+    <article ng-repeat="video in vm.album.items track by $index">
+        <span class="image">
+            <img ng-src="https://img.youtube.com/vi/{{video.id}}/hqdefault.jpg"/>
+        </span>
+        <a ui-sref="albums.profile.videoDialog({videoId: video.id})">
+            <h2>{{video.title}}</h2>
+            <div class="content">
+                <p>{{video.description}}</p>
+            </div>
+        </a>
+    </article>
+</section>
+<br>
+<section>
+    <button ng-click="vm.addVideo()"><i class="fa fa-plus"></i> Add video</button>
+</section>

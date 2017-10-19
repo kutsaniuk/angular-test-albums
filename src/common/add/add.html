@@ -1,0 +1,17 @@
+<form name="vm.videoForm" ng-submit="vm.album.items.push(vm.getVideoId(vm.video)); vm.ngDialog.close()">
+
+    <input type="text" class="form-control" placeholder="Title" ng-model="vm.video.title" required>
+
+    <textarea class="form-control" placeholder="Description" ng-model="vm.video.description"></textarea>
+
+    <input type="text"
+           class="form-control"
+           placeholder="Link"
+           ng-change="vm.getVideo(vm.video.link)"
+           required
+           ng-model="vm.video.link">
+    <iframe ng-show="vm.youtubeVideoUrl" ng-src="{{vm.youtubeVideoUrl}}" frameborder="0" width="100%"
+            height="300"></iframe>
+    <br>
+    <button type="submit" ng-disabled="!vm.youtubeVideoUrl && vm.videoForm.$invalid">Add</button>
+</form>

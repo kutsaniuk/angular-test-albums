@@ -1,0 +1,13 @@
+<section class="tiles">
+    <article ng-repeat="album in vm.albums">
+        <span class="image">
+            <img ng-src="https://img.youtube.com/vi/{{album.items[0].id}}/hqdefault.jpg"/>
+        </span>
+        <a ui-sref="albums.profile({albumId: album.id})">
+            <h2>{{album.title}}</h2>
+            <div class="content">
+                <p>{{album.description}}</p>
+            </div>
+        </a>
+    </article>
+</section>

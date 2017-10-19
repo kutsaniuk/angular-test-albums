@@ -1,0 +1,22 @@
+{
+  "id": 2,
+  "title": "Clips",
+  "description": "Description",
+  "items": [
+    {
+      "id": "kJQP7kiw5Fk",
+      "title": "Luis Fonsi - Despacito ft. Daddy Yankee",
+      "description": "“Despacito” disponible ya en todas las plataformas digitales"
+    },
+    {
+      "id": "09R8_2nJtjg",
+      "title": "Maroon 5 - Sugar",
+      "description": "Music video by Maroon 5 performing Sugar. (C) 2015 Interscope Records"
+    },
+    {
+      "id": "OPf0YbXqDm0",
+      "title": "Mark Ronson - Uptown Funk ft. Bruno Mars",
+      "description": "Mark Ronson's official music video for 'Uptown Funk' ft. Bruno Mars"
+    }
+  ]
+}
